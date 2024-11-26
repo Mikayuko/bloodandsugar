@@ -29,7 +29,7 @@ class Case {
                 System.out.println("General");
             } else if (this.blood > 120 && this.blood <= 139 && this.sugar >= 100 && this.sugar <= 125) {
                 System.out.println("Risk");
-            } else if (this.blood <= 139 && this.sugar <= 125) {
+            } else if (this.blood <= 139 && this.sugar > 125) {
                 System.out.println("High Risk level 0");
             } else if (this.blood >= 140 && this.blood <= 159 && this.sugar > 125 && this.sugar <= 154) {
                 System.out.println("High Risk level 1");
